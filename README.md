@@ -20,6 +20,6 @@ Cursor is a code editor designed for pair-programming with AI. In Cursor, you ca
 
 ### What is this repo?
 
-In Cursor, you can show GPT-4 project documentation to improve it's answers with @ commands like @Langchain and @Tokio. You can also spawn our crawler to add your own documention by typing "@Add" in chat.
+In Cursor, you can show GPT-4 project documentation to improve it's answers with @ commands like @Langchain and @Tokio. You can also spawn our crawler to add your own documentation by typing "@Add" in chat.
 
 This repo is the list of documentation that's available for all users of Cursor with no "@Add" command required.
