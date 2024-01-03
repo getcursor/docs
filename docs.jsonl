@@ -376,3 +376,5 @@
 { "name": "Serp Google Scholar API", "crawlerStart": "https://serpapi.com/google-scholar-api", "crawlerPrefix": "https://serpapi.com/google-scholar-api" }
 { "name": "Novu", "crawlerStart": "https://docs.novu.co/", "crawlerPrefix": "https://docs.novu.co/" }
 { "name": "Drizzle", "crawlerStart": "https://orm.drizzle.team/docs/overview", "crawlerPrefix": "https://orm.drizzle.team/docs/overview" }
+{ "name": "Crystal", "crawlerStart": "https://crystal-lang.org/api", "crawlerPrefix": "https://crystal-lang.org/api" }
+{ "name": "Amber", "crawlerStart": "https://docs.amberframework.org/amber", "crawlerPrefix": "https://docs.amberframework.org/amber" }
