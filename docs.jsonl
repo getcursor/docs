@@ -380,3 +380,4 @@
 { "name": "Domo", "crawlerStart": "https://developer.domo.com/", "crawlerPrefix": "https://developer.domo.com/" }
 { "name": "Crystal", "crawlerStart": "https://crystal-lang.org/api", "crawlerPrefix": "https://crystal-lang.org/api" }
 { "name": "Amber", "crawlerStart": "https://docs.amberframework.org/amber", "crawlerPrefix": "https://docs.amberframework.org/amber" }
+{ "name": "Lua", "crawlerStart": "https://www.lua.org/manual/5.4/manual.html", "crawlerPrefix": "https://www.lua.org/manual/5.4/manual.html" }
