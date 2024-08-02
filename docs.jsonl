@@ -381,4 +381,7 @@
 { "name": "Crystal", "crawlerStart": "https://crystal-lang.org/api", "crawlerPrefix": "https://crystal-lang.org/api" }
 { "name": "Amber", "crawlerStart": "https://docs.amberframework.org/amber", "crawlerPrefix": "https://docs.amberframework.org/amber" }
 { "name": "TLDraw", "crawlerStart": "https://tldraw.dev/", "crawlerPrefix": "https://tldraw.dev/" }
-{ "name": "Swift", "crawlerStart": "https://developer.apple.com/documentation/technologies", "crawlerPrefix": "https://developer.apple.com/documentation/technologies" }
+{ "name": "Swift", "crawlerStart": "https://developer.apple.com/documentation/technologies", "crawlerPrefix": "https://developer.apple.com/documentation/technologies" },
+{ "name": "Shopify", "crawlerStart": "https://shopify.dev/docs/api", "crawlerPrefix": "https://shopify.dev/docs/api" },
+{ "name": "Boostrap CSS", "crawlerStart": "https://getbootstrap.com/docs/5.3/", "crawlerPrefix": "https://getbootstrap.com/docs/5.3/" },
+{ "name": "DigitalOcean", "crawlerStart": "https://docs.digitalocean.com/", "crawlerPrefix": "https://docs.digitalocean.com/" }
