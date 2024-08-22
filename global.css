@@ -1,0 +1,76 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #eeee;
+  border-radius: 10px;
+  border: none;
+}
+
+#sidebar *,
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #eeee white;
+  scrollbar-gutter: stable;
+}
+
+a:has(> code) {
+  border-bottom: none !important;
+}
+
+a > code {
+  cursor: pointer;
+  border-bottom: #0c0c15 1px solid !important;
+}
+
+a > code:hover {
+  border-bottom: #0c0c15 2px solid !important;
+}
+
+#content-area > div.leading-6.mt-14 > footer > div.sm\:flex > a {
+  display: none;
+}
+
+@font-face {
+  font-family: 'GT Standard Mono';
+  src: url('/fonts/GT-Standard-Mono-VF-Beta-V1.ttf') format('truetype');
+  font-weight: 400 450 700; /* Normal to Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Standard';
+  src: url('/fonts/GT-Standard-VF-Beta-V4.ttf') format('truetype');
+  font-weight: 300 400 450 500 700 900; /* Normal to Bold */
+  font-style: normal;
+}
+
+.gt-standard {
+  font-family: 'GT Standard', sans-serif;
+}
+
+.gt-standard-mono {
+  font-family: 'GT Standard Mono', monospace;
+}
+
+* {
+  font-family: 'GT Standard', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'GT Standard Mono', monospace;
+}
+
+#sidebar > div > ul > li:nth-child(1) {
+  display: none;
+}

@@ -1,0 +1,139 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Cursor",
+  "logo": {
+    "dark": "/images/logo/app-logo.svg",
+    "light": "/images/logo/app-logo.svg"
+  },
+  "favicon": "/images/logo/favicon.svg",
+  "colors": {
+    "primary": "#0C0C15",
+    "light": "#0C0C15",
+    "dark": "#0C0C15",
+    "background": {
+      "dark": "#0C0C15",
+      "light": "#fff"
+    },
+    "anchors": {
+      "from": "#0C0C15",
+      "to": "#0C0C15"
+    }
+  },
+  "metadata": {
+    "og:site_name": "Cursor",
+    "og:title": "Cursor - Built Software Faster",
+    "og:description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI.",
+    "og:url": "https://cursor.com",
+    "og:image": "/images/hero.png",
+    "og:locale": "en_US",
+    "og:logo": "/images/logo/app-logo.svg",
+    "article:publisher": "Anysphere Inc.",
+    "twitter:title": "Cursor - Built Software Faster",
+    "twitter:description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI.",
+    "twitter:url": "https://cursor.com",
+    "twitter:image": "/images/hero.png",
+    "twitter:site": "@cursor_ai",
+    "og:image:width": "1200",
+    "og:image:height": "630"
+  },
+  "topbarLinks": [
+    {
+      "name": "Forum",
+      "url": "https://forum.cursor.com/"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://cursor.com/settings"
+  },
+  "anchors": [
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/w6HqfaQ2u2",
+      "iconType": "brands"
+    },
+    {
+      "name": "Forum",
+      "icon": "newspaper",
+      "url": "https://forum.cursor.com/",
+      "iconType": "duotone"
+    },
+    {
+      "name": "Email",
+      "icon": "headset",
+      "url": "mailto:hi@cursor.com",
+      "iconType": "duotone"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "get-started/migrate-from-vscode",
+        "get-started/usage"
+      ]
+    },
+    {
+      "group": "Tab",
+      "pages": [
+        "tab/overview",
+        "tab/from-gh-copilot",
+        "tab/advanced-features"
+      ]
+    },
+    {
+      "group": "Chat",
+      "pages": [
+        "chat/overview",
+        "chat/customize",
+        "chat/codebase",
+        "chat/apply"
+      ]
+    },
+    {
+      "group": "Cmd K",
+      "pages": ["cmdk/overview", "cmdk/terminal-cmdk"]
+    },
+    {
+      "group": "Context",
+      "pages": [
+        "context/codebase-indexing",
+        "context/rules-for-ai",
+        {
+          "group": "@ Symbols",
+          "pages": [
+            "context/@-symbols/basic",
+            "context/@-symbols/@-files",
+            "context/@-symbols/@-folders",
+            "context/@-symbols/@-code",
+            "context/@-symbols/@-docs",
+            "context/@-symbols/@-git",
+            "context/@-symbols/@-codebase",
+            "context/@-symbols/@-web",
+            "context/@-symbols/@-chat",
+            "context/@-symbols/@-definitions",
+            "context/@-symbols/@-link"
+          ]
+        },
+        "context/ignore-files"
+      ]
+    },
+    {
+      "group": "Advanced",
+      "pages": ["advanced/models", "advanced/ai-review", "advanced/shadow-workspace"]
+    },
+    {
+      "group": "Miscellaneous",
+      "pages": ["miscellaneous/privacy", "miscellaneous/api-keys", "miscellaneous/common-issues"]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/cursor_ai",
+    "github": "https://github.com/getcursor/cursor/"
+  },
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  }
+}
