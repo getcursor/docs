@@ -38,6 +38,10 @@
   },
   "topbarLinks": [
     {
+      "name": "GitHub",
+      "url": "https://github.com/getcursor/docs"
+    },
+    {
       "name": "Forum",
       "url": "https://forum.cursor.com/"
     }
@@ -69,18 +73,11 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "get-started/migrate-from-vscode",
-        "get-started/usage"
-      ]
+      "pages": ["get-started/migrate-from-vscode", "get-started/usage"]
     },
     {
       "group": "Tab",
-      "pages": [
-        "tab/overview",
-        "tab/from-gh-copilot",
-        "tab/advanced-features"
-      ]
+      "pages": ["tab/overview", "tab/from-gh-copilot", "tab/advanced-features"]
     },
     {
       "group": "Chat",
@@ -121,11 +118,19 @@
     },
     {
       "group": "Advanced",
-      "pages": ["advanced/models", "advanced/ai-review", "advanced/shadow-workspace"]
+      "pages": [
+        "advanced/models",
+        "advanced/ai-review",
+        "advanced/shadow-workspace"
+      ]
     },
     {
       "group": "Miscellaneous",
-      "pages": ["miscellaneous/privacy", "miscellaneous/api-keys", "miscellaneous/common-issues"]
+      "pages": [
+        "miscellaneous/privacy",
+        "miscellaneous/api-keys",
+        "miscellaneous/common-issues"
+      ]
     }
   ],
   "footerSocials": {
