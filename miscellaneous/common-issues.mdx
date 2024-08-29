@@ -20,6 +20,10 @@ Unfortunately, we don't support GitHub Codespaces yet.
 
 Currently, we don't support SSHing into Mac or Windows machines. If you're not using a Mac or Windows machine, please report your issue to us in the [forum](https://forum.cursor.com/). It would be helpful to include some logs for better assistance.
 
+#### Cursor Tab and Cmd K do not work behind my corporate proxy.
+
+Cursor Tab and Cmd K use HTTP/2 by default, which allows us to use less resources with lower latency. Some corporate proxies (e.g. Zscaler in certain configurations) block HTTP/2. To fix this, you can set `"cursor.general.disableHttp2": true` in the settings (`Cmd/Ctrl + ,` and then search for `http2`).
+
 #### I just subscribed to Pro but I'm still on the free plan in the app.
 
 Try logging out and logging back in from the [Cursor Settings Popup](/get-started/glossary#cursor-settings-popup).

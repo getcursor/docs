@@ -23,7 +23,7 @@ To submit your query, press `Enter`.
 User messages contain the text you type, along with the context you've referenced. You can go back to any previous user messages to edit and rerun your queries. This will
 overwrite any messages after that and regenerate new ones.
 
-AI messages are the responses generated from the AI model you've picked. They are paired with the user message before them. AI messages may contain parsed code blocks which can be added to your codebase with [instant apply](/chat/instant-apply).
+AI messages are the responses generated from the AI model you've picked. They are paired with the user message before them. AI messages may contain parsed code blocks which can be added to your codebase with [instant apply](/chat/apply).
 
 All user/AI messages together in the same thread are called a chat thread, and each chat thread is saved in your chat history. 
 
@@ -50,17 +50,6 @@ By default, user messages will contain the text you type, along with the context
 the current viewing file will be used as context as well in the user message. 
 
 See the [@ symbols](/context/@-symbols/@-files) pages for more information.
-
-
-### Slash Edit
-
-You can initiate your chat message with the `/edit` coommand and describe the change you'd like to make to your current file.
-
-The differences between this and [Cmd K](/cmdk/overview) is that this uses a custom model that skips unchanged sections, ensuring a quicker response over the entire file.
-
-<Frame>
-  <img src="/images/chat/slash-edit.png" />
-</Frame>
 
 
 ### AI Fix in Chat
