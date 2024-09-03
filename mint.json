@@ -120,16 +120,22 @@
       "group": "Advanced",
       "pages": [
         "advanced/models",
+        "advanced/api-keys",
         "advanced/ai-review",
         "advanced/shadow-workspace"
       ]
     },
     {
-      "group": "Miscellaneous",
+      "group": "Privacy",
       "pages": [
-        "miscellaneous/privacy",
-        "miscellaneous/api-keys",
-        "miscellaneous/common-issues"
+        "privacy/privacy"
+      ]
+    },    
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/common-issues",
+        "troubleshooting/troubleshooting-guide"
       ]
     }
   ],
