@@ -93,6 +93,10 @@
       "pages": ["cmdk/overview", "cmdk/terminal-cmdk"]
     },
     {
+      "group": "Cmd I",
+      "pages": ["composer/overview"]
+    },
+    {
       "group": "Context",
       "pages": [
         "context/codebase-indexing",
