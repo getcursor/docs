@@ -1,0 +1,43 @@
+---
+title: "@Files"
+---
+
+### `@Files`
+
+在Cursor Chat和Cmd K等AI输入框中，您可以使用`@Files`引用整个文件。
+此外，如果您在`@`之后继续输入，您将在[`@Code`](/context/@-symbols/@-code)策略之后看到您的文件搜索结果。
+
+为了确保您引用的文件是正确的文件，Cursor将显示文件路径的预览。当您在不同文件夹中有多个同名文件时，这特别有用。
+
+<Frame>
+<img src="/images/context/@file.png"/>
+</Frame>
+
+### 聊天中的长文件引用
+
+在Cursor的聊天中，如果文件内容太长，Cursor会将文件分割成更小的块，并根据与查询的相关性重新排序。
+
+<Frame>
+<img src="/images/context/@file-long-file.png"/>
+</Frame>
+
+### Cmd K的分块策略
+
+对于Cmd K，Cursor也会根据内容长度以不同方式使用文件引用。
+
+- auto（自动）
+  - 根据文件大小自动选择三种读取策略之一
+- full file（完整文件）
+  - 整个文件被用作上下文。
+- outline（大纲）
+  - Cursor解析文件的大纲并将信息用作上下文。
+- chunks（分块）
+  - Cursor将文件分割成更小的块并选择最相关的一个。
+
+<Frame>
+<img src="/images/context/@file-cmdk.png"/>
+</Frame>
+
+### 拖放
+
+您也可以从主侧边栏将文件拖放到聊天或Cmd K中，以将它们添加为上下文。
